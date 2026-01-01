@@ -1493,7 +1493,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   #universe h1 {
-    top: 25%;
-    font-size: 24px;
+    top: 50%;
+    font-size: 30px;
   }
 }
