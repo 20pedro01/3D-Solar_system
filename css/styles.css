@@ -1438,7 +1438,7 @@ body {
 
 #start-btn {
   padding: 20px 40px;
-  font-size: 40px;
+  font-size: 30px;
   background: #FB7209;
   color: white;
   border: 3px solid white;
@@ -1490,4 +1490,10 @@ body {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   font-weight: 300;
   pointer-events: none;
+}
+@media screen and (max-width: 600px) {
+  #universe h1 {
+    top: 25%;
+    font-size: 24px;
+  }
 }
