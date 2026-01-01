@@ -1491,9 +1491,9 @@ body {
   font-weight: 300;
   pointer-events: none;
 }
-@media screen and (max-width: 600px) {
+@media (orientation: portrait) {
   #universe h1 {
-    top: 50%;
-    font-size: 30px;
+    top: 25%;
+    font-size: 24px;
   }
 }
